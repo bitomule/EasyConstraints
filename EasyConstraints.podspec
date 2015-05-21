@@ -25,7 +25,7 @@ Pod::Spec.new do |s|
   s.social_media_url   = "http://twitter.com/bitomule"
 
   s.platform     = :ios
-  s.platform     = :ios, "7.0"
+  s.platform     = :ios, "8.0"
 
   s.source       = { :git => "https://github.com/bitomule/EasyConstraints.git", :tag => "0.1.0" }
 
