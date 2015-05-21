@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name         = "EasyConstraints"
-  s.version      = "0.1.1"
+  s.version      = "0.1.2"
   s.summary      = "Custom UIViewController displayed under navigation bar."
 
   s.description  = <<-DESC
@@ -27,7 +27,7 @@ Pod::Spec.new do |s|
   s.platform     = :ios
   s.platform     = :ios, "8.0"
 
-  s.source       = { :git => "https://github.com/bitomule/EasyConstraints.git", :tag => "0.1.1" }
+  s.source       = { :git => "https://github.com/bitomule/EasyConstraints.git", :tag => "0.1.2" }
 
   s.source_files = 'Source/*.swift'
   s.requires_arc = true
