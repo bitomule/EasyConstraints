@@ -12,7 +12,7 @@ Pod::Spec.new do |s|
   s.summary      = "Custom UIViewController displayed under navigation bar."
 
   s.description  = <<-DESC
-                  Suit of custom swift operator to create NSLayoutConstraints.
+                  Suit of custom swift operators to create NSLayoutConstraints.
                   * Easy to use
                   * Easy to understand
                    DESC
