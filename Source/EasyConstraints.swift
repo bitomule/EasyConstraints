@@ -26,11 +26,11 @@ infix operator *<>< {}
 
 
 //TOP
-public func ^ (view1:UIView,relatedTo:(view2:UIView,constant:CGFloat)) -> NSLayoutConstraint{
+public func <^> (view1:UIView,relatedTo:(view2:UIView,constant:CGFloat)) -> NSLayoutConstraint{
     return NSLayoutConstraint(item: view1, attribute: NSLayoutAttribute.Top, relatedBy: NSLayoutRelation.Equal, toItem: relatedTo.view2, attribute: NSLayoutAttribute.Top, multiplier: 1, constant: relatedTo.constant)
 }
 
-public func ^ (view1:UIView,relatedTo:(view2:UIView,constant:CGFloat,relation:NSLayoutRelation)) -> NSLayoutConstraint{
+public func <^> (view1:UIView,relatedTo:(view2:UIView,constant:CGFloat,relation:NSLayoutRelation)) -> NSLayoutConstraint{
     return NSLayoutConstraint(item: view1, attribute: NSLayoutAttribute.Top, relatedBy: relatedTo.relation, toItem: relatedTo.view2, attribute: NSLayoutAttribute.Top, multiplier: 1, constant: relatedTo.constant)
 }
 
