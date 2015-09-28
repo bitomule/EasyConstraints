@@ -162,6 +162,7 @@
 		419171711B0E0DC700ADA3EE /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastSwiftUpdateCheck = 0700;
 				LastUpgradeCheck = 0630;
 				ORGANIZATIONNAME = "David Collado Sela";
 				TargetAttributes = {
@@ -419,6 +420,7 @@
 				4191719A1B0E0DC700ADA3EE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4191719B1B0E0DC700ADA3EE /* Build configuration list for PBXNativeTarget "EasyConstraintsTests" */ = {
 			isa = XCConfigurationList;
@@ -427,6 +429,7 @@
 				4191719D1B0E0DC700ADA3EE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
