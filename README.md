@@ -1,3 +1,5 @@
+⛔️ DEPRECATED I'm no longer supporting this lib.
+  
 # EasyConstraints
 Suit of custom swift operators to create NSLayoutConstraints.
 
